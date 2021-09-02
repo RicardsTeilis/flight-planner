@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "demo": "ts-node ./src/demo-data/run.ts",
+    "test-pattern": "jest --env=node --colors --verbose=true",
     "test": "jest --env=node --colors test --verbose=true",
+    "test-06": "npm run test-pattern 06-*",
     "prettier": "prettier --write './{src,test}/**/*.ts'"
   },
   "author": "",
